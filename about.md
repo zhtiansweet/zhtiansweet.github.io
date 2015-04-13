@@ -9,4 +9,4 @@ I'm a Master's student on [Computer Science](http://www.eecs.northwestern.edu/) 
 [My Resume](https://github.com/zhtiansweet/zhtiansweet.github.io/blob/master/resume.html)
 
 ### Contact me
-[tianzhang2014@u.northwestern.edu](tianzhang2014@u.northwestern.edu)
+[tianzhang2014@u.northwestern.edu](mailto:tianzhang2014@u.northwestern.edu)
