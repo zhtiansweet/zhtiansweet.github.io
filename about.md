@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a Master's student on [Computer Science](http://www.eecs.northwestern.edu/) at [Northwestern University](http://www.northwestern.edu/), and will graduate on December 2015. Now I'm looking for a summer internship as a software engineer.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+[My Resume](https://github.com/zhtiansweet/zhtiansweet.github.io/blob/master/Resume-TianZhang.pdf)
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[tianzhang2014@u.northwestern.edu](tianzhang2014@u.northwestern.edu)
