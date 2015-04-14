@@ -41,7 +41,6 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      * e.g.  
 
      ```java 
-     
      //Parent Class
      class Person{
          int age;
@@ -61,7 +60,6 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      * e.g.
      
      ```java
-     
      foo(Person p){p.sayHello();}
      foo(new Student());
      foo(new Teacher());
