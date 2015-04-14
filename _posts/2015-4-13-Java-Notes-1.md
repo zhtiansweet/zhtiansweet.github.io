@@ -55,7 +55,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
          void meetTeacher(){...}
      }  
      ```
-  3. **Polymorphism**
+   3. **Polymorphism**
      * Implementing the same fuction on different objects may generate different results.
      * e.g.
      
