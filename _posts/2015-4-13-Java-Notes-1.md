@@ -39,7 +39,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   2. **Inheritance**
      * Parent class and child class could share data and methods.
      * e.g.
-     ```Java
+     ~~~Java
      //Parent Class
      class Person{
          int age;
@@ -53,13 +53,13 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
          double score;
          void meetTeacher(){...}
      }
-     ```
+     ~~~
   3. **Polymorphism**
      * Implementing the same fuction on different objects may generate different results.
      * e.g.
-     ```Java
+     ~~~Java
      foo(Person p){p.sayHello();}
      foo(new Student());
      foo(new Teacher());
      //Different results!
-     ```
+     ~~~
