@@ -11,7 +11,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 * Platforms:
  * Java SE: J2SE, Standard Edition.
  * Java EE: J2EE, Enterprise Edition.
- * Java ME: J2ME, Micro Edition
+ * Java ME: J2ME, Micro Edition.
 
 ###What is Java
 * Simple, OOP, cross-platform, secure, muti-threads.
@@ -22,9 +22,9 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 * **JVM (Java Virtual Machine)**
  * source.java --_compile (javac)_--> source.class (bytecode) --_run_--> JVM for different platforms
 * JRE = JVM + API (lib)
-   1. load code (by _class loader_)
-   2. check code (by _bytecode verifier_)
-   3. run code (by _runtime interpreter_)  
+ * Load code (by _class loader_).
+ * Check code (by _bytecode verifier_).
+ * Run code (by _runtime interpreter_). 
 * **Code Security**  
 * **Garbage Collection**  
 * JDK (Java Development Kit) = JRE + Tools  
@@ -55,7 +55,6 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
          void meetTeacher(){...}
      }  
      ```
-   
    * **Polymorphism**
      * Implementing the same fuction on different objects may generate different results.
      * e.g.
