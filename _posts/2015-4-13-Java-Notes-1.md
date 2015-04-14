@@ -33,10 +33,10 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 *  **Class** is an abstract of objects, **Object** is an instance of class.
  * Class = Field + Method
 * Features:
-   1. **Encapsulation**
+   * **Encapsulation**
      * Pack data and functions into a class.
      * Allow selective hiding of properties and methods in an object.
-   2. **Inheritance**
+   * **Inheritance**
      * Parent class and child class could share data and methods.
      * e.g.  
 
@@ -56,7 +56,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      }  
      ```
    
-   3. 3. **Polymorphism**
+   * **Polymorphism**
      * Implementing the same fuction on different objects may generate different results.
      * e.g.
      
