@@ -40,6 +40,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      * Parent class and child class could share data and methods.
      * e.g.
      ```java  
+     
      //Parent Class
      class Person{
          int age;
@@ -57,7 +58,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   3. **Polymorphism**
      * Implementing the same fuction on different objects may generate different results.
      * e.g.
-     ```java  
+     ```java 
+     
      foo(Person p){p.sayHello();}
      foo(new Student());
      foo(new Teacher());
