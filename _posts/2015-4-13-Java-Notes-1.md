@@ -20,14 +20,14 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 
 ###Java Mechanism
 1. JVM(Java Virtual Machine)
- * source.java --_compile(javac)_--> source.class(bytecode) --_run_--> JVM for different platforms
- * JRE = JVM + API(lib)
-   1. load codes(by _class loader_)
-   2. check codes(by _bytecode verifier_)
-   3. run codes(by _runtime interpreter_)  
+ * source.java --_compile (javac)_--> source.class (bytecode) --_run_--> JVM for different platforms
+ * JRE = JVM + API (lib)
+   1. load codes (by _class loader_)
+    2. check codes (by _bytecode verifier_)
+    3. run codes (by _runtime interpreter_)  
 2. Code Security  
 3. Garbage Collection  
-4. JDK(Java Development Kit) = JRE + Tools  
+4. JDK (Java Development Kit) = JRE + Tools  
 
 ###Object-Oriented Programming
 * 
