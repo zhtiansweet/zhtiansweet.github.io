@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Programming Notes (1) -- Introduction to Java and OOP
+title: Java Programming Notes (1) - Introduction to Java and OOP
 ---
 
 Course: [Java Programming (coursera.com)](https://class.coursera.org/pkujava-001)  
@@ -16,13 +16,15 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 ###What is Java
 * Simple, OOP, cross-platform, secure, muti-threads.
 * "**C++--**":
- * No pointers, automatical memory control, stable data types, no header files, no macros, no multiple inheritance, no global variables except for classes...
+ * No pointers, automatical memory control, stable data types, no header files, no macros, no multiple inheritance, no global variables other than classes...
 
 ###Java Mechanism
 1. JVM(Java Virtual Machine)
  * source.java --_compile(javac)_--> source.class(bytecode) --_run_--> JVM for different platforms
  * JRE = JVM + API(lib)
-   * JRE: load codes(by _class loader_), check codes(by _bytecode verifier_), run codes(by _runtime interpreter_).  
+   1. load codes(by _class loader_)
+   2. check codes(by _bytecode verifier_)
+   3. run codes(by _runtime interpreter_).  
 2. Code Security  
 3. Garbage Collection  
 4. JDK(Java Development Kit) = JRE + Tools  
