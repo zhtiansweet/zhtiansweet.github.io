@@ -37,6 +37,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      * Pack data and functions into a class.
      * Allow selective hiding of properties and methods in an object.
   2. **Inheritance**
+  3. **Polymorphism**
      * Parent class and child class could share data and methods.
      * e.g.  
 
