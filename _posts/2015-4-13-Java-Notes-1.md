@@ -38,8 +38,10 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      * Allow selective hiding of properties and methods in an object.
   2. **Inheritance**
      * Parent class and child class could share data and methods.
-     * e.g.
-     ```java  
+     * e.g.  
+
+     ```java 
+     
      //Parent Class
      class Person{
          int age;
@@ -57,7 +59,9 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   3. **Polymorphism**
      * Implementing the same fuction on different objects may generate different results.
      * e.g.
+     
      ```java
+     
      foo(Person p){p.sayHello();}
      foo(new Student());
      foo(new Teacher());
