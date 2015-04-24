@@ -9,4 +9,4 @@ I'm a Master's student on [Computer Science](http://www.eecs.northwestern.edu/) 
 ### Contact me
 [Email](mailto: tianzhang2014@u.northwestern.edu)  
 [LinkedIn](https://www.linkedin.com/in/zhtiansweet)  
-[Github](https://github.com/zhtiansweet)
+[Github](https://github.com/zhtiansweet/ProjectList/blob/master/ProjectList.md)
