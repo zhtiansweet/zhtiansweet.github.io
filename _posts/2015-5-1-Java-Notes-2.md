@@ -30,10 +30,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```
    *  Integer
 
-
      | Type | Size (Byte) | Range |
      | :---: | :---: | :---: |
      | byte | 1 | -128 ~ 127 |
-
 
    * Float
