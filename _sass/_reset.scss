@@ -43,17 +43,17 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 5;
-	border:2px solid #000000;
+	border-collapse: separate;
+	border-spacing: 10px;
+	border:1px solid #000000;
 }
 
 th{
-    border:2px solid #000000;
+    border:1px solid #000000;
 }
 
 td{
-    border:2px solid #000000;
+    border:1px solid #000000;
 }
 
 // Apply a natural box layout model to all elements
