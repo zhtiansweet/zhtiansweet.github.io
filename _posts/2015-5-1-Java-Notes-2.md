@@ -29,9 +29,26 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   char c1 = '\u0061' //c1 = 'a'
   ```
    * Integer
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>		
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>		
+    <td>80</td>
+  </tr>
+</table>
 
- | Type | Size (byte) | Range |
- | :---: | :---: | :---: |
- | byte | 1 | -128 ~ 127 | 
- | short | 2 | $2^15$ |
-  
