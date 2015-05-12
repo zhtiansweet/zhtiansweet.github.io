@@ -8,7 +8,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 ### Data Type
 * Primitive Type: stored in the stack (_"Here"_)
   * Numeric Type
-    * Integer: **byte (1b), short (2b), int (4b), long (8b)**
+    * Integer: **byte, short, int, long**
     * Float: **float, double**
   * **char**
   * **boolean**
@@ -18,4 +18,19 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   * **Array**
 
 1. Primitive Type
-  * boolean: 
+  * boolean
+  ```java
+  if (a = 5) //Wrong!!! Nonzero doesn't mean false!
+  ```
+  * char: Unicode
+  ```java
+  char c1 = '\u0061' //c1 = 'a'
+  ```
+  * Integer
+
+  Type | Size (byte) | Range
+  --- | --- | ---
+  byte | 1 | -128 ~ 127
+  short | 2 | $2^15$
+  
+  $$2^15$$
