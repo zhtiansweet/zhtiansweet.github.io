@@ -23,14 +23,12 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   ```java
   if (a = 5) //Wrong!!! Nonzero doesn't mean false!
   ```
- 
-  * char: Unicode
+   * char: Unicode
   
   ```java
   char c1 = '\u0061' //c1 = 'a'
   ```
-  
-  * Integer
+   * Integer
 
  | Type | Size (byte) | Range |
  | :---: | :---: | :---: |
