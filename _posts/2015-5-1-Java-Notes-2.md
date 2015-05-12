@@ -8,8 +8,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 ### Data Type
 * Primitive Type: stored in the stack (_"Here"_)
   * Numeric Type
-    * Integer: **byte, short, int, long**
-    * Float: **float, double**
+     * Integer: **byte, short, int, long**
+     * Float: **float, double**
   * **char**
   * **boolean**
 * Reference Type: pointer to the object stored in the heap (_"There"_)
@@ -18,14 +18,14 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   * **Array**
 
 1. Primitive Type
-  1. boolean
+   1. boolean
   
     ```java
-    if (a = 5) //Wrong!!! Nonzero doesn't mean false!
-    ```
-  2. char: Unicode
+   if (a = 5) //Wrong!!! Nonzero doesn't mean false!
+   ```
+   2. char: Unicode
   
-    ```java
-    char c1 = '\u0061' //c1 = 'a'
-    ```
-  3.  Integer
+   ```java
+   char c1 = '\u0061' //c1 = 'a'
+   ```
+   3.  Integer
