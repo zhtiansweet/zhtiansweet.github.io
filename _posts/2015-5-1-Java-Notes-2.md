@@ -29,3 +29,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     char c1 = '\u0061' //c1 = 'a'
     ```
    *  Integer
+    
+    Type | Size | Range
+    --- | --- | ---
+    byte | 1 | -128 ~ 127
