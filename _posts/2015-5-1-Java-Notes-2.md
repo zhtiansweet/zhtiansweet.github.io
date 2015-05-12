@@ -19,17 +19,19 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 
 1. Primitive Type
   * boolean
+  
   ```java
   if (a = 5) //Wrong!!! Nonzero doesn't mean false!
   ```
   * char: Unicode
+  
   ```java
   char c1 = '\u0061' //c1 = 'a'
   ```
   * Integer
 
-| Type | Size (byte) | Range |  
-| --- | --- | --- |  
-| byte | 1 | -128 ~ 127 |  
-| short | 2 | $2^15$ |
+ | Type | Size (byte) | Range |
+ | --- | --- | --- |
+ | byte | 1 | -128 ~ 127 | 
+ | short | 2 | $2^15$ |
   
