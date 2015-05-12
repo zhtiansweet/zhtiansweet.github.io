@@ -18,37 +18,14 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   * **Array**
 
 1. Primitive Type
-  * boolean
+  1. boolean
   
-  ```java
-  if (a = 5) //Wrong!!! Nonzero doesn't mean false!
-  ```
-   * char: Unicode
+    ```java
+    if (a = 5) //Wrong!!! Nonzero doesn't mean false!
+    ```
+  2. char: Unicode
   
-  ```java
-  char c1 = '\u0061' //c1 = 'a'
-  ```
-   * Integer
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>		
-    <th>Points</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>		
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>		
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>		
-    <td>80</td>
-  </tr>
-</table>
-
+    ```java
+    char c1 = '\u0061' //c1 = 'a'
+    ```
+  3.  Integer
