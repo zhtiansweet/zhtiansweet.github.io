@@ -31,7 +31,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   * Integer
 
  | Type | Size (byte) | Range |
- | --- | --- | --- |
+ | :---: | :---: | :---: |
  | byte | 1 | -128 ~ 127 | 
  | short | 2 | $2^15$ |
   
