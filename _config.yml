@@ -51,8 +51,8 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: redcarpet
-redcarpet:
+markdown: maruku
+maruku:
  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 highlighter: pygments
 permalink: /:title/
