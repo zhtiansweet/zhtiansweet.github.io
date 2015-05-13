@@ -33,6 +33,6 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
     | byte | 1 | -128 ~ 127 |
-    | char | 2 | \\(-2^15\\) ~ \\(2^15-1\\) |
+    | char | 2 | \-2^15\\ ~ \2^15-1\\ |
    * Float
  $$2^2$$
