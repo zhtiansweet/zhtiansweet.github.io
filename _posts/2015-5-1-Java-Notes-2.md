@@ -29,12 +29,12 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```
 3. Integer
  
-   | Type | Size (Byte) | Range |
-   | :---: | :---: | :---: |
-   | byte | 1 | -128 ~ 127 |
-   | short | 2 | -2^{15} ~ 2^{15}-1 |
-   | int | 4 | -2^{31} ~ 2^{31}-1 |
-   | long | 8 | -2^{63} ~ 2^{63}-1 |
+    | Type | Size (Byte) | Range |
+    | :---: | :---: | :---: |
+    | byte | 1 | -128 ~ 127 |
+    | short | 2 | -2^{15} ~ 2^{15}-1 |
+    | int | 4 | -2^{31} ~ 2^{31}-1 |
+    | long | 8 | -2^{63} ~ 2^{63}-1 |
 
   * Expression
   
