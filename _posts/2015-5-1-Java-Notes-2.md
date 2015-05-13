@@ -5,7 +5,7 @@ title: Java Programming Notes (2) - Data Type & Expression & Array
 Course: [Java Programming (Coursera)](https://class.coursera.org/pkujava-001)  
 Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking University](http://english.pku.edu.cn/)
 
-### Data Type
+## Data Type
 * Primitive Type: stored in the stack (_"Here"_)
   * Numeric Type
      * Integer: **byte, short, int, long**
@@ -63,7 +63,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   *  Class: Pascal (e.g. Racer)
   *  Others: camel (e.g. racerList)
 
-### Operator
+## Operator
 * Division /
  * 15/4 = 3, 15.0/2 = 7.5
 * Short-circuit && ||
