@@ -74,7 +74,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 * Shift
  *  Left shift <<, signed right shift >>, unsigned right shift >>>
  *  Integer Promotion: promote byte and short to int before operation
- *  a>>b: if a is int
+ *  a>>b: if a is int, b = b mod 32; if a is long, b = b mod 64
  
   ```java
     public static void main(String[] args) {
