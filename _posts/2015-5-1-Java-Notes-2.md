@@ -47,6 +47,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```
    * No _unsigned_ integer!
     * Use ```long``` to deal with uint 
+
 4. Float (_Fixed on different OS_)
     
     | Type | Size (Byte) | Range |
@@ -60,6 +61,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
    double d = 3.14;
    float f = 3.14f;
    ```
+ 
 * Identifier
   *  Class: Pascal (e.g. Racer)
   *  Others: camel (e.g. racerList)
