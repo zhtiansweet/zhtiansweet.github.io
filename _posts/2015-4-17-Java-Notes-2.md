@@ -8,8 +8,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 ## Data Type
 * Primitive Type: stored in the stack (_"Here"_)
   * Numeric Type
-     * Integer: **byte, short, int, long**
-     * Float: **float, double**
+     * Integral Type: **byte, short, int, long**
+     * Floatint-point Type: **float, double**
   * **char**
   * **boolean**
 * Reference Type: pointer to the object stored in the heap (_"There"_)
@@ -27,7 +27,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```java
     char c1 = '\u0061' //c1 = 'a'
     ```
-* Integer (_Fixed on different OS_)
+* Integral Type (_Fixed on different OS_)
  
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
@@ -43,13 +43,13 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     int i = 012;  //Octal
     int i = 0x12;  //Hexadecimal
     int i = 0b00010010;  //Binary (Java7 and above)
-    long l = 3l;
+    long l = 3L;
     ```
     
     * No _unsigned_ integer!
       * Use ```long``` to deal with uint 
 
-* Float (_Fixed on different OS_)
+* Floatint-point Type (_Fixed on different OS_)
     
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
@@ -79,8 +79,10 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 * Shift
   *  Left shift <<, signed right shift >>, unsigned right shift >>>
   *  Integer Promotion: promote byte and short to int before operation
-  *  a>>b: if a is int, b = b mod 32; if a is long, b = b mod 64
+  *  a>>b: if a is int, b = b mod 32; if a is long, b = b mod 64  
  
+Below are some examples to show these rules.
+
     ```java
     public static void main(String[] args) {
         int a1 = 5;
