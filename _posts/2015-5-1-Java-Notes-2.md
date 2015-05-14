@@ -36,18 +36,19 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     | int | 4 | -2^{31} ~ 2^{31}-1 |
     | long | 8 | -2^{63} ~ 2^{63}-1 |
 
-  * Expression
+   * Expression
   
-   ```java
-   int i = 12;  //Decimal
-   int i = 012;  //Octal
-   int i = 0x12;  //Hexadecimal
-   int i = 0b00010010;  //Binary (Java7 and above)
-   long l = 3l;
-   ```
-  * No _unsigned_ integer!
-   * Use ```long``` to deal with uint 
+    ```java
+    int i = 12;  //Decimal
+    int i = 012;  //Octal
+    int i = 0x12;  //Hexadecimal
+    int i = 0b00010010;  //Binary (Java7 and above)
+    long l = 3l;
+    ```
+   * No _unsigned_ integer!
+    * Use ```long``` to deal with uint 
 4. Float (_Fixed on different OS_)
+    
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
     | float | 4 | -3.403E38 ~ 3.403E38 |
