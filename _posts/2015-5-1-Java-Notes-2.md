@@ -17,17 +17,17 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   * **interface**
   * **Array**
 
-1. boolean
+* boolean
  
     ```java
     if (a = 5) {}  //Wrong!!! Nonzero doesn't mean false!
     ```
-2. char: Unicode
+* char: Unicode
  
     ```java
     char c1 = '\u0061' //c1 = 'a'
     ```
-3. Integer (_Fixed on different OS_)
+* Integer (_Fixed on different OS_)
  
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
@@ -36,7 +36,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     | int | 4 | -2^{31} ~ 2^{31}-1 |
     | long | 8 | -2^{63} ~ 2^{63}-1 |
 
-   * Expression
+    * Expression
   
     ```java
     int i = 12;  //Decimal
@@ -45,41 +45,43 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     int i = 0b00010010;  //Binary (Java7 and above)
     long l = 3l;
     ```
-   * No _unsigned_ integer!
-    * Use ```long``` to deal with uint 
+    
+    * No _unsigned_ integer!
+      * Use ```long``` to deal with uint 
 
-4. Float (_Fixed on different OS_)
+* Float (_Fixed on different OS_)
     
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
     | float | 4 | -3.403E38 ~ 3.403E38 |
     | double | 8 | -1.798E308 ~ 1.798E308 |
 
-  * Expression
+   * Expression
   
-   ```java
-   double d = 3.14;
-   float f = 3.14f;
-   ```
+    ```java
+    double d = 3.14;
+    float f = 3.14f;
+    ```
  
 * Identifier
-  *  Class: Pascal (e.g. Racer)
-  *  Others: camel (e.g. racerList)
+   *  Class: Pascal (e.g. Racer)
+   *  Others: camel (e.g. racerList)
 
 ## Operator
 * Division /
- * 15/4 = 3, 15.0/2 = 7.5
+  * 15/4 = 3, 15.0/2 = 7.5
 * Short-circuit && ||
 
   ```java
   if ((d != null) && (d.day > 31)) {}  //When (d = null), the latter will not be evaluated
   ```
-* Shift
- *  Left shift <<, signed right shift >>, unsigned right shift >>>
- *  Integer Promotion: promote byte and short to int before operation
- *  a>>b: if a is int, b = b mod 32; if a is long, b = b mod 64
  
-  ```java
+* Shift
+  *  Left shift <<, signed right shift >>, unsigned right shift >>>
+  *  Integer Promotion: promote byte and short to int before operation
+  *  a>>b: if a is int, b = b mod 32; if a is long, b = b mod 64
+ 
+    ```java
     public static void main(String[] args) {
         int a1 = 5;
         int a2 = -5;
@@ -107,4 +109,4 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
         String s = String.format("%8s", Integer.toBinaryString(n & 0xFF)).replace(' ', '0');  //make the output be 8 bits
         System.out.println(prefix + " " + s + " = " + n);
     }
-  ```
+    ```
