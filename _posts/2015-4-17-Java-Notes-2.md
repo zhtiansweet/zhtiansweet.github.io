@@ -81,34 +81,34 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   *  Integer Promotion: promote byte and short to int before operation
   *  a>>b: if a is int, b = b mod 32; if a is long, b = b mod 64  
  
-Below are some examples to show these rules.
+  Below are some examples to show these rules.
 
-    ```java
-    public static void main(String[] args) {
-        int a1 = 5;
-        int a2 = -5;
-        byte d1 = 5;
-        byte d2 = -5;
-        print("a1 =", a1);  //a1 = 00000000000000000000000000000101 = 5
-        print("a2 =", a2);  //a2 = 11111111111111111111111111111011 = -5
-        print("d1 =", d1);  //d1 = 00000101 = 5
-        print("d2 =", d2);  //d2 = 11111011 = -5
-        print("a1>>2 =", a1>>2);  //a1>>2 = 00000000000000000000000000000001 = 1
-        print("a1>>34 =", a1>>34);  //a1>>34 = 00000000000000000000000000000001 = 1
-        print("a2>>2 =", a2>>2);  //a2>>2 = 11111111111111111111111111111110 = -2
-        print("a2>>>2 =", a2>>>2);  //a2>>>2 = 00111111111111111111111111111110 = 1073741822
-        print("d1>>2 =", d1>>2);  //d1>>2 = 00000000000000000000000000000001 = 1
-        print("d2>>2 =", d2>>2);  //d2>>2 = 11111111111111111111111111111110 = -2
-    }
+  ```java
+  public static void main(String[] args) {
+    int a1 = 5;
+    int a2 = -5;
+    byte d1 = 5;
+    byte d2 = -5;
+    print("a1 =", a1);  //a1 = 00000000000000000000000000000101 = 5
+    print("a2 =", a2);  //a2 = 11111111111111111111111111111011 = -5
+    print("d1 =", d1);  //d1 = 00000101 = 5
+    print("d2 =", d2);  //d2 = 11111011 = -5
+    print("a1>>2 =", a1>>2);  //a1>>2 = 00000000000000000000000000000001 = 1
+    print("a1>>34 =", a1>>34);  //a1>>34 = 00000000000000000000000000000001 = 1
+    print("a2>>2 =", a2>>2);  //a2>>2 = 11111111111111111111111111111110 = -2
+    print("a2>>>2 =", a2>>>2);  //a2>>>2 = 00111111111111111111111111111110 = 1073741822
+    print("d1>>2 =", d1>>2);  //d1>>2 = 00000000000000000000000000000001 = 1
+    print("d2>>2 =", d2>>2);  //d2>>2 = 11111111111111111111111111111110 = -2
+  }
 
-    static void print(String prefix, int n){
-        String s = Integer.toBinaryString(n);  //change int into binary string
-        while(s.length() < 32) s="0"+s;  //make the output be 32 bits
+  static void print(String prefix, int n){
+    String s = Integer.toBinaryString(n);  //change int into binary string
+      while(s.length() < 32) s="0"+s;  //make the output be 32 bits
         System.out.println(prefix + " " + s + " = " + n);
-    }
+  }
 
-    static void print(String prefix, byte n){
-        String s = String.format("%8s", Integer.toBinaryString(n & 0xFF)).replace(' ', '0');  //make the output be 8 bits
-        System.out.println(prefix + " " + s + " = " + n);
-    }
-    ```
+  static void print(String prefix, byte n){
+     String s = String.format("%8s", Integer.toBinaryString(n & 0xFF)).replace(' ', '0');  //make the output be 8 bits
+     System.out.println(prefix + " " + s + " = " + n);
+  }
+```
