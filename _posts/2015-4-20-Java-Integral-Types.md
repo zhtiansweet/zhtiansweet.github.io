@@ -96,6 +96,6 @@ For int and long, we could directly use ```Integer.toBinaryString()``` and ```Lo
 ```
 
 It will print out:  
-![print](https://github.com/zhtiansweet/zhtiansweet.github.io/blob/master/images/QQ20150514-1%402x.png)
+![print](../images/QQ20150514-1%402x.png)
 
 This ```print``` function is also helpful when judging the data type of the operation results:)
