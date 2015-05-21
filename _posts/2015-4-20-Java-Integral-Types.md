@@ -2,7 +2,7 @@
 layout: post
 title: Play with Integral Types in Java
 ---
-For some basic knowledge of data types in Java, please see my blog [Java Programming Notes (2) - Data Type & Expression & Array](http://zhtiansweet.github.io/Java-Notes-2/).
+For some basic knowledge of data types in Java, please see my blog [Java Programming Notes (2) - Data Type & Operation & Array](http://zhtiansweet.github.io/Java-Notes-2/).
 
 ## Literal   
 All integral types are in integral literals. An integer literal is of type long if it is suffixed with an ASCII letter L (preferred) or l; otherwise it is of type int. It means that **byte and short are initialized by int literals**, for there is no byte or short literal in Java. **Don't consider the first bit as a sign bit when using a binary literal for byte or short!!!** 
