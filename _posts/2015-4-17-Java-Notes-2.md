@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Programming Notes (2) - Data Type & Operation & Array
+title: Java Programming Notes (2) - Data Type & Operation & Flow Control & Array
 ---
 Course: [Java Programming (Coursera)](https://class.coursera.org/pkujava-001)  
 Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking University](http://english.pku.edu.cn/)
@@ -114,3 +114,45 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 ```
 
 * Numeric Promotion: byte, short, char -> int -> long -> float -> double
+
+## Flow Control
+* Sequence
+* Selection  
+  e.g. Auto Test & Score
+* Iteration
+  e.g. Draw Circles
+
+## Array
+* Read-only Traversal
+    
+    ```java
+    int[] ages = new int[10]:
+    for(int age: ages){
+      System.out.println(age);
+    }
+    ```
+    
+* Copy
+  * System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
+  * Arrays.copyOf(Array original, int newLength)
+  * Arrays.copyOfRange(Array original, int from, int to)
+
+  ```java
+  import java.util.Arrays;
+
+  public class arrayCopy {
+    public static void main(String[] args) {
+        int[] src = new int[]{2, 3, 5, 1, 6};
+        int[] dest1 = new int[10];
+
+
+        System.arraycopy(src, 0, dest1, 3, 5);  //dest1 = [0, 0, 0, 2, 3, 5, 1, 6, 0, 0]
+        int[] dest2 = Arrays.copyOfRange(src, 2, 7);  //dest2 = [5, 1, 6, 0, 0]
+        int[] dest3 = Arrays.copyOf(src, 3);  //dest3 = [2, 3, 5]
+
+        System.out.println(Arrays.toString(dest1));
+        System.out.println(Arrays.toString(dest2));
+        System.out.println(Arrays.toString(dest3));
+    }
+  }
+  ```
