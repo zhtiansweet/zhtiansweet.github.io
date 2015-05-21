@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Programming Notes (2) - Data Type & Expression & Array
+title: Java Programming Notes (2) - Data Type & Operation & Array
 ---
 Course: [Java Programming (Coursera)](https://class.coursera.org/pkujava-001)  
 Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking University](http://english.pku.edu.cn/)
@@ -28,6 +28,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     char c1 = '\u0061' //c1 = 'a'
     ```
 * Integral Type (_Fixed on different OS_)
+
+    _Also see my blog: [Play with Integral Types in Java](http://zhtiansweet.github.io/Java-Integral-Types/)_
  
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
@@ -110,3 +112,5 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      System.out.println(prefix + " " + s + " = " + n);
   }
 ```
+
+* Numeric Promotion: byte, short, char -> int -> long -> float -> double
