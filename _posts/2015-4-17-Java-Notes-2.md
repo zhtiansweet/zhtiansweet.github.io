@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Programming Notes (2) - Data Type & Operation & Flow Control & Array
+title: Java Notes (2) - Data Type & Operation & Flow Control & Array
 ---
 Course: [Java Programming (Coursera)](https://class.coursera.org/pkujava-001)  
 Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking University](http://english.pku.edu.cn/)
