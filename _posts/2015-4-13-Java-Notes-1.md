@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Notes (1) - Introduction to Java and OOP
+title: Java Notes (1) - Introduction to Java & OOP
 ---
 
 Course: [Java Programming (Coursera)](https://class.coursera.org/pkujava-001)  
