@@ -49,7 +49,6 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```
     
     * No _unsigned_ integer!
-      * Use ```long``` to deal with uint 
 
 * Floatint-point Type (_Fixed on different OS_)
     
@@ -166,7 +165,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     System.out.println(Arrays.deepToString(t2));  //t2 = [[1, 2, 3, 4, 5], [1, 2, 3], [0, 1, 2, 3, 4], [0, 0, 0, 0, 0]]
   ```
 
-* e.g. Select 7 numbers in [1, 36] randomly
+## _Exercise_
+* Generate 7 different integers in [1, 36] randomly
 
   ```java
     public static void main(String[] args) {
@@ -174,7 +174,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
         for(int i=0;i<a.length;i++) {
             begin:
             while(true) {
-                a[i] = random(1, 36);
+                a[i] = random(1, 36);  //Generate a random integers in [1, 36]
+                
                 //Ensure that the selected numbers are different
                 for (int j = 0; j < i; j++) {
                     if (a[j] == a[i]) continue begin;
@@ -185,9 +186,36 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
         }
     }
     
-    //Geverate integers in [min, max] randomly
+    //Generate a random integer in [min, max]
     public static int random(int min, int max){
         Random r = new Random();
         return r.nextInt(max-min+1)+min;
     }
   ```
+
+* Output all prime numbers less than 100 with [Sieve of Eratosthenes](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+
+  ```java
+      public static void main (String arg[]){
+        //Initialize an array
+        boolean[] b = new boolean[101];
+        for(int i=2;i<101;i++){
+            b[i] = true;
+        }
+
+        for(int i=0;i<=10;i++){     //There is no need to traverse i>sqrt(100)
+            if (b[i]) {
+                //Delete i's multiples
+                for (int j = i*i; j < 101; j += i) {      //Multiples less than i*i have been checked
+                    b[j] = false;
+                }
+            }
+        }
+        
+        //Output
+        for (int i=0;i<101;i++){
+            if (b[i])   System.out.print(i+" ");
+        }
+    }
+  ```
+It will print out: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
