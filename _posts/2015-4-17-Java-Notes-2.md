@@ -138,21 +138,56 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
   * Arrays.copyOfRange(Array original, int from, int to)
 
   ```java
-  import java.util.Arrays;
+    int[] src = new int[]{2, 3, 5, 1, 6};
+    int[] dest1 = new int[10];
 
-  public class arrayCopy {
+    System.arraycopy(src, 0, dest1, 3, 5);  
+    int[] dest2 = Arrays.copyOfRange(src, 2, 7);  
+    int[] dest3 = Arrays.copyOf(src, 3);  
+
+    System.out.println(Arrays.toString(dest1));  //dest1 = [0, 0, 0, 2, 3, 5, 1, 6, 0, 0]
+    System.out.println(Arrays.toString(dest2));  //dest2 = [5, 1, 6, 0, 0]
+    System.out.println(Arrays.toString(dest3));  //dest3 = [2, 3, 5]
+  ```
+
+* Two-dimenstional Array
+
+  ```java
+    int[][] t1 = new int[4][];
+    t1[0] = new int[]{1,2,3,4,5};
+    t1[1] = new int[3];
+
+    int[][] t2 = new int[4][5];
+    t2[0] = new int[]{1,2,3,4,5};
+    t2[1] = new int[]{1,2,3};
+    for(int i=0;i<t2[2].length;i++) t2[2][i] = i;
+
+    System.out.println(Arrays.deepToString(t1));  //t1 = [[1, 2, 3, 4, 5], [0, 0, 0], null, null]
+    System.out.println(Arrays.deepToString(t2));  //t2 = [[1, 2, 3, 4, 5], [1, 2, 3], [0, 1, 2, 3, 4], [0, 0, 0, 0, 0]]
+  ```
+
+* e.g. Select 7 numbers in [1, 36] randomly
+
+  ```java
     public static void main(String[] args) {
-        int[] src = new int[]{2, 3, 5, 1, 6};
-        int[] dest1 = new int[10];
-
-
-        System.arraycopy(src, 0, dest1, 3, 5);  //dest1 = [0, 0, 0, 2, 3, 5, 1, 6, 0, 0]
-        int[] dest2 = Arrays.copyOfRange(src, 2, 7);  //dest2 = [5, 1, 6, 0, 0]
-        int[] dest3 = Arrays.copyOf(src, 3);  //dest3 = [2, 3, 5]
-
-        System.out.println(Arrays.toString(dest1));
-        System.out.println(Arrays.toString(dest2));
-        System.out.println(Arrays.toString(dest3));
+        int[] a = new int[7];
+        for(int i=0;i<a.length;i++) {
+            begin:
+            while(true) {
+                a[i] = random(1, 36);
+                //Ensure that the selected numbers are different
+                for (int j = 0; j < i; j++) {
+                    if (a[j] == a[i]) continue begin;
+                }
+                break;
+            }
+            System.out.print(a[i]+" ");
+        }
     }
-  }
+    
+    //Geverate integers in [min, max] randomly
+    public static int random(int min, int max){
+        Random r = new Random();
+        return r.nextInt(max-min+1)+min;
+    }
   ```
