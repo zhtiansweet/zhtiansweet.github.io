@@ -119,7 +119,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 * Sequence
 * Selection  
   e.g. Auto Test & Score
-* Iteration
+* Iteration  
   e.g. Draw Circles
 
 ## Array
