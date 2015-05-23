@@ -55,7 +55,7 @@ Any value of any integral type may be cast to or from any numeric type.
   print("int b =", (int)b);   //int b = 00000000000000000000000000100111 = 39
   print("byte l =", (byte)l);   //byte l = 00010101 = 21
 ```
-
+<a name="binary"></a>
 ## Convert an Integers into a Binary String  
 For int and long, we could directly use ```Integer.toBinaryString()``` and ```Long.toBinaryString()```. But for byte and short, we need to play a trick using ```Integer.toBinaryString()```.
 
