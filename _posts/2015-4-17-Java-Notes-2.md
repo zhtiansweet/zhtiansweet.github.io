@@ -27,9 +27,10 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```java
     char c1 = '\u0061' //c1 = 'a'
     ```
+<a name="integral"></a>
 * Integral Type (_Fixed on different OS_)
 
-    _Also see my blog: [Play with Integral Types in Java](http://zhtiansweet.github.io/Java-Integral-Types/)_
+    _More in my blog: [Play with Integral Types in Java](http://zhtiansweet.github.io/Java-Integral-Types/)_
  
     | Type | Size (Byte) | Range |
     | :---: | :---: | :---: |
@@ -49,6 +50,8 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```
     
     * No _unsigned_ integer!
+    
+      _More in my blog: [Play with Unsigned Integers in Java](http://zhtiansweet.github.io/Java-Unsigned-Integers/)_
 
 * Floatint-point Type (_Fixed on different OS_)
     
