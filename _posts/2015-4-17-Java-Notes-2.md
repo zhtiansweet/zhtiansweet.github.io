@@ -27,7 +27,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     ```java
     char c1 = '\u0061' //c1 = 'a'
     ```
-<a name="integral"></a>
+
 * Integral Type (_Fixed on different OS_)
 
     _More in my blog: [Play with Integral Types in Java](http://zhtiansweet.github.io/Java-Integral-Types/)_
