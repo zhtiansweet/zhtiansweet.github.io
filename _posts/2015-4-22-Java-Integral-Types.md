@@ -17,10 +17,10 @@ All integral types are in integral literals. An integer literal is of type long 
   byte d1 = 5;    //d1 = 00000101 = 5
   byte d2 = -5;   //d2 = 11111011 = -5
   byte d3 = -0b101;   //d3 = 11111011 = -5
-  byte d4 = 0b1111_1011;    //Wrong!!!   
+  //byte d4 = 0b1111_1011;    //Wrong!!!   
   byte d5 = (byte)-0b1000_0000_0000_0000_0000_0000_0000_0101;   //d5 = 11111011 = -5
   byte d6 = -0b1000_0000;   //d6 = 10000000 = -128
-  byte d7 = 0b1000_0000;    //Wrong!!!
+  //byte d7 = 0b1000_0000;    //Wrong!!!
   byte d8 = 0b0111_1111;    //d8 = 01111111 = 127
   byte d9 = (byte)0b1000_0000;    //d9 = 10000000 = -128
 ```
