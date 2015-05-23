@@ -47,7 +47,7 @@ System.out.println("(unsigned) y/x = "+Integer.divideUnsigned(y, x));   //(unsig
 System.out.println("(unsigned) y%x = "+Integer.remainderUnsigned(y, x));    //(unsigned) y%x = 4
 ```
 
-```Integer.parseInt(s, 2)``` tends to parse s as a signed integer in radix 2. You could initialize an int as ```int i = 0b11111111111111111111111111111110```, and i is actually -2. For _parseInt_, however, Java will consider "11111111111111111111111111111110" as 4294967294, which is larger than the maximum int. So this line will cause an _NumberFormatException_. The right way is to input a human-readable string representing a negetive int like ```Integer.parseInt("-10", 2)```.
+```Integer.parseInt(s, 2)``` tends to parse s as a signed integer in radix 2. You could initialize an int as ```int i = 0b11111111111111111111111111111110```, where i is actually -2. For _parseInt_, however, Java will consider "11111111111111111111111111111110" as 4294967294, which is larger than the maximum int. So this line will cause an _NumberFormatException_. The right way is to input a human-readable string representing a negetive int like ```Integer.parseInt("-10", 2)```.
 
 ```Integer.parseUnsignedInt("-2")``` doesn't work because -2 is less than the minimun unsigned int 0. The same reason goes to ```Integer.parseUnsignedInt("-10", 2)```.
 
