@@ -11,7 +11,7 @@ Let's play with these methods!
 [1]: https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html
 [2]: https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html
 
-Below are some examples for toUnsignedLong, toUnsignedString, parseUnsignedInt, compareUnsigned, divideUnsigned, remainderUnsigned methods, and also the comparisons between them and the ones for signed integers. IntegralType.print is a function to print out the 32-bit binary representation for int and 64-bit for long, please see details <a href="http://zhtiansweet.github.io/Java-Integral-Types/#binary">here</a>. I wrote the results in the console as comments. 
+Below are some examples for _toUnsignedLong, toUnsignedString, parseUnsignedInt, compareUnsigned, divideUnsigned, remainderUnsigned_ methods, and also the comparisons between them and the ones for signed integers. _IntegralType.print_ is a function to print out 32-bit binary representation for int and 64-bit for long, please see details <a href="http://zhtiansweet.github.io/Java-Integral-Types/#binary">here</a>. I wrote the results in the console as comments. 
 
 ```java
 int x = 5;
