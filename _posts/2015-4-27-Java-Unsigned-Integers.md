@@ -2,7 +2,7 @@
 layout: post
 title: Play with Unsigned Integers in Java
 ---
-For basic knowledge of data types in Java, please see <a href="http://zhtiansweet.github.io/Java-Notes-2/#integral">here</a>.
+_For basic knowledge of data types in Java, please see <a href="http://zhtiansweet.github.io/Java-Notes-2/#integral">here</a>._
 
 There is no unsigned integral type in Java. In Java SE 8 and later, however, we could use int and long to represent unsined integers, with the range of 0 ~ 2^{32}-1 (32 bits) and 0 ~ 2^{64} (64 bits). And the [Integer][1] and [Long][2] class also contains methods like compareUnsigned and divideUnsigned etc to support arithmetic perations for unsigned integers. 
 
