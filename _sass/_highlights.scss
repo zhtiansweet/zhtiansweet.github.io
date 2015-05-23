@@ -15,18 +15,18 @@ code {
   font-size: 14px;
 }
 
-.highlight .c { color: #586E75 } /* Comment */
+.highlight .c { color: #93A1A1 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
 .highlight .k { color: #859900 } /* Keyword */
-.highlight .l { color: #93A1A1 } /* Literal */
-.highlight .n { color: #93A1A1 } /* Name */
+.highlight .l { color: #586E75 } /* Literal */
+.highlight .n { color: #586E75 } /* Name */
 .highlight .o { color: #859900 } /* Operator */
 .highlight .x { color: #CB4B16 } /* Other */
 .highlight .p { color: #93A1A1 } /* Punctuation */
-.highlight .cm { color: #586E75 } /* Comment.Multiline */
+.highlight .cm { color: #93A1A1 } /* Comment.Multiline */
 .highlight .cp { color: #859900 } /* Comment.Preproc */
-.highlight .c1 { color: #586E75 } /* Comment.Single */
+.highlight .c1 { color: #93A1A1 } /* Comment.Single */
 .highlight .cs { color: #859900 } /* Comment.Special */
 .highlight .gd { color: #2AA198 } /* Generic.Deleted */
 .highlight .ge { color: #93A1A1; font-style: italic } /* Generic.Emph */
@@ -47,7 +47,7 @@ code {
 .highlight .ld { color: #93A1A1 } /* Literal.Date */
 .highlight .m { color: #2AA198 } /* Literal.Number */
 .highlight .s { color: #2AA198 } /* Literal.String */
-.highlight .na { color: #93A1A1 } /* Name.Attribute */
+.highlight .na { color: #586E75 } /* Name.Attribute */
 .highlight .nb { color: #B58900 } /* Name.Builtin */
 .highlight .nc { color: #268BD2 } /* Name.Class */
 .highlight .no { color: #CB4B16 } /* Name.Constant */
@@ -55,10 +55,10 @@ code {
 .highlight .ni { color: #CB4B16 } /* Name.Entity */
 .highlight .ne { color: #CB4B16 } /* Name.Exception */
 .highlight .nf { color: #268BD2 } /* Name.Function */
-.highlight .nl { color: #93A1A1 } /* Name.Label */
-.highlight .nn { color: #93A1A1 } /* Name.Namespace */
+.highlight .nl { color: #586E75 } /* Name.Label */
+.highlight .nn { color: #586E75 } /* Name.Namespace */
 .highlight .nx { color: #555 } /* Name.Other */
-.highlight .py { color: #93A1A1 } /* Name.Property */
+.highlight .py { color: #586E75 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
 .highlight .ow { color: #859900 } /* Operator.Word */
