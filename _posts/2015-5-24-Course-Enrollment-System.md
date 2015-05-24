@@ -22,12 +22,12 @@ I made an object-oriented design of course enrollment system. See the whole proj
 
 ```class CourseEnroll implements EnrollActivity``` methods:  
 * ```void add(Course cou, UndergradStudent stu)```  
-   * Call ```UndergradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```  
+    * Call ```UndergradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```  
 * void add(Course cou, GradStudent stu)
-   * Call ```GradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```
+    * Call ```GradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```
 * void delete
-   * Call ```Student.deleteCourse(cou), Course.deleteStudent(stu), Student.printCourseList(), Course.printStudentList()```
-* main function
+    * Call ```Student.deleteCourse(cou), Course.deleteStudent(stu), Student.printCourseList(), Course.printStudentList()```
+* main function  
 
 ```class Student``` fields (all private):
 * ```static final int MAX_COURSE=4``` (A student could select as many as 4 courses per quarter)
