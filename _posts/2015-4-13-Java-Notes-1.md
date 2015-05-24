@@ -37,18 +37,18 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
      * Pack data and functions into a class.
      * Allow selective hiding of properties and methods in an object.
    * **Inheritance**
-     * Parent class and child class could share data and methods.
+     * Superclass and subclass could share data and methods.
      * e.g.  
 
      ```java 
-     //Parent Class
+     //Superclass
      class Person{
          int age;
          String name;
          void sayHello(){...}
      }
      
-     //Child Class
+     //Subclass
      class Student extends Person{
          String school;
          double score;
