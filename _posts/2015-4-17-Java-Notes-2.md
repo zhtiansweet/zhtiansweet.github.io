@@ -119,12 +119,14 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 
 * Numeric Promotion: byte, short, char -> int -> long -> float -> double
 
+<!--
 ## Flow Control
 * Sequence
 * Selection  
   e.g. Auto Test & Score
 * Iteration  
   e.g. Draw Circles
+-->
 
 ## Array
 * Read-only Traversal
