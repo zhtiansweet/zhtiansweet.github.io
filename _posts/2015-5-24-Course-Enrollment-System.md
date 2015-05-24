@@ -1,7 +1,8 @@
 ---
 layout: post
-title: OO Design: Course Enrollment System
+title: OO Design - Course Enrollment System
 ---
+
 I made an object-oriented design of course enrollment system. See the whole project [here](https://github.com/zhtiansweet/CourseEnrollment).
 
 ## Enrollment Rules
