@@ -14,18 +14,19 @@ I made an object-oriented design of course enrollment system. See the whole proj
 * Undergraduate students could only select courses with id under 400, and Graduate students could only select courses with id over 300.
 
 ## Class & Interface Details
-```interface EntollActivity``` methods:
+
+```interface EntollActivity``` methods:    
 * ```void add(Course cou, UndergradStudent stu)```
 * ```void add(Course cou, GradStudent stu)```
 * ```void delete```
 
-```class CourseEnroll implements EnrollActivity``` methods:
-* ```void add(Course cou, UndergradStudent stu)```
-  * Call ```UndergradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```
+```class CourseEnroll implements EnrollActivity``` methods:  
+* ```void add(Course cou, UndergradStudent stu)```  
+   * Call ```UndergradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```  
 * void add(Course cou, GradStudent stu)
-  * Call ```GradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```
+   * Call ```GradStudent.add, Course.addStudent, Student.printCourseList(), Course.printStudentList()```
 * void delete
-  * Call ```Student.deleteCourse(cou), Course.deleteStudent(stu), Student.printCourseList(), Course.printStudentList()```
+   * Call ```Student.deleteCourse(cou), Course.deleteStudent(stu), Student.printCourseList(), Course.printStudentList()```
 * main function
 
 ```class Student``` fields (all private):
