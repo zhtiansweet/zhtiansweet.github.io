@@ -5,6 +5,8 @@ title: OO Design - Course Enrollment System
 
 I made an object-oriented design of course enrollment system. See the whole project [here](https://github.com/zhtiansweet/CourseEnrollment).
 
+I initialized some courses and students, and generated enrollment activities randomly. You could add some courses and students and modify the enrollment activities to play with the system.
+
 ## Enrollment Rules
 * Each course has three status: open, wl(waiting list) and close. When initialized, a course's status will be set as "open".
 * Each course has two student lists. One is for students that have been enrolled successfully, and the other is for students on the waiting list. 
