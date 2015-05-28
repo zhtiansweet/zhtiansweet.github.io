@@ -37,11 +37,11 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
        * A subclass could have only one direct superclass.
        * Subclasses modify and add fields & methods of their superclasses.
     * "extends"
+       * All classes inherit from java.lang.**Object**
        
        ```java
        class Student extends Person {
             ...
       }
       ```
-      
-       * All classes inherit from java.lang.**Object**
+
