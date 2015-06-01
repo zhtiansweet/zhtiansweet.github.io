@@ -85,7 +85,7 @@ Other Modifier: **abstract, static, final**
 
 Modifiers could modify classes and members (fields & methods) in classes
 
-### public & private
+### Access Modifiers
 * Modify Fields & Methods  
 
     * Accessibility:
@@ -119,5 +119,34 @@ Modifiers could modify classes and members (fields & methods) in classes
     | :---: | :---: | :---: |
     | Default | Y | N |
     | public | Y | Y |
+### Other Modifiers
+
+|  | Modify Classes | Modify Members | Modify Local Variables |
+| :---: | :---: | :---: | :---: |
+| static | Inner Class | Y | N |
+| final | Y | Y | Y |
+| abstract | Y | Y | N |
+
+* static
+    * ```static``` Field
+       * Not belong to any instance, stored in the memory block of class
+       * Could be accessed by class name or an instance, same result
+       * "Global variable"
+    * ```static``` Method
+       * Not belong to any instance
+       * Can't use ```super``` or ```this```
+* final
+    * ```static``` Class: Can't be inherited
+    * ```static``` Method: Can't be overrided by subclasses
+    * ```static``` Field & Local Variable
+       * Read-only 
+       * ```static final``` fields represent constants. If not be initialized, the default values are 0 for numbers, false for boolean values, null for references.
+       * ```final``` fields and local variables **MUST** be and could only be assigned once.
+* abstract
+    * ```abstract``` Class: Can't be instantiated
+    * ```abstract``` Method
+       * Only declared, not implemented: ```abstract returnType abstractMethod([paramlist]);```
+       * An ```abstract``` class may or may not contain ```abtract``` methods; but if a class contains an abtract methods, it is an ```abstract``` class.
+       * ```abstract``` methods MUST be implemented (overrided) in the subclass, otherwise the subclass is still ```abstract``.
 
 ## Interface
