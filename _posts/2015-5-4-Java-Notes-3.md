@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Notes (3) - Class & Interface & Modifiers
+title: Java Notes (3) - Class & Interface & Modifier
 ---
 Course: [Java Programming (Coursera)](https://class.coursera.org/pkujava-001)  
 Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking University](http://english.pku.edu.cn/)
@@ -80,4 +80,44 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 * Classes in the same package could access each other.
 
 ## Modifiers
+Access Modifier: **public, private**  
+Other Modifier: **abstract, static, final**  
+
+Modifiers could modify classes and members (fields & methods) in classes
+
+### public & private
+* Modify Fields & Methods  
+
+      * Accessibility:
+
+      |  | Within Class | Within Packet | Subclass out of Packet | Non-subclass out of Packet |
+      | :---: | :---: | :---: | :---: | :---: |
+      | private | Y | N | N | N |
+      | Default | Y | Y | N | N |
+      | protected | Y | Y | Y | N |
+      | public | Y | Y | Y | Y |
+      
+      * Setter & Getter -- Encapsulation
+      
+      ```java
+      class Person{
+         private int age;
+         public void setAge(int age){
+            if(age>0 && age<200) this.age = age;
+         }
+         public int getAge(){
+            return age;
+         }
+      }
+      ```
+      
+* Modify Classes
+
+Accessibility:
+
+|  | Within Packet | Out of Packet |
+| :---: | :---: | :---: |
+| Default | Y | N |
+| public | Y | Y |
+
 ## Interface
