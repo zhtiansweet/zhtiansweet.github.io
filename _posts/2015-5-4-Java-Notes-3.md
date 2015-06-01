@@ -136,9 +136,9 @@ Modifiers could modify classes and members (fields & methods) in classes
        * Not belong to any instance
        * Can't use ```super``` or ```this```
 * final
-    * ```static``` Class: Can't be inherited
-    * ```static``` Method: Can't be overrided by subclasses
-    * ```static``` Field & Local Variable
+    * ```final``` Class: Can't be inherited
+    * ```final``` Method: Can't be overrided by subclasses
+    * ```final``` Field & Local Variable
        * Read-only 
        * ```static final``` fields represent constants. If not be initialized, the default values are 0 for numbers, false for boolean values, null for references.
        * ```final``` fields and local variables **MUST** be and could only be assigned once.
@@ -147,6 +147,6 @@ Modifiers could modify classes and members (fields & methods) in classes
     * ```abstract``` Method
        * Only declared, not implemented: ```abstract returnType abstractMethod([paramlist]);```
        * An ```abstract``` class may or may not contain ```abtract``` methods; but if a class contains an abtract methods, it is an ```abstract``` class.
-       * ```abstract``` methods MUST be implemented (overrided) in the subclass, otherwise the subclass is still ```abstract``.
+       * ```abstract``` methods MUST be implemented (overrided) in the subclass, otherwise the subclass is still abstract.
 
 ## Interface
