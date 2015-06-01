@@ -90,12 +90,12 @@ Modifiers could modify classes and members (fields & methods) in classes
 
       * Accessibility:
 
-      |  | Within Class | Within Packet | Subclass out of Packet | Non-subclass out of Packet |
-      | :---: | :---: | :---: | :---: | :---: |
-      | private | Y | N | N | N |
-      | Default | Y | Y | N | N |
-      | protected | Y | Y | Y | N |
-      | public | Y | Y | Y | Y |
+       |  | Within Class | Within Packet | Subclass out of Packet | Non-subclass out of Packet |
+       | :---: | :---: | :---: | :---: | :---: |
+       | private | Y | N | N | N |
+       | Default | Y | Y | N | N |
+       | protected | Y | Y | Y | N |
+       | public | Y | Y | Y | Y |
       
       * Setter & Getter -- Encapsulation
       
