@@ -80,7 +80,7 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
 * Classes in the same package could access each other.
 
 ## Modifiers
-Access Modifier: **public, private**  
+Access Modifier: **public, private, protected**  
 Other Modifier: **abstract, static, final**  
 
 Modifiers could modify classes and members (fields & methods) in classes
@@ -92,10 +92,10 @@ Modifiers could modify classes and members (fields & methods) in classes
 
     |  | Within Class | Within Packet | Subclass out of Packet | Non-subclass out of Packet |
     | :---: | :---: | :---: | :---: | :---: |
-    | private | Y | N | N | N |
+    | ```private``` | Y | N | N | N |
     | Default | Y | Y | N | N |
-    | protected | Y | Y | Y | N |
-    | public | Y | Y | Y | Y |
+    | ```protected``` | Y | Y | Y | N |
+    | ```public``` | Y | Y | Y | Y |
       
     * Setter & Getter -- Encapsulation
       
@@ -118,15 +118,15 @@ Modifiers could modify classes and members (fields & methods) in classes
     |  | Within Packet | Out of Packet |
     | :---: | :---: | :---: |
     | Default | Y | N |
-    | public | Y | Y |
+    | ```public``` | Y | Y |
 
 ### Other Modifiers
 
 |  | Modify Classes | Modify Members | Modify Local Variables |
 | :---: | :---: | :---: | :---: |
-| static | Inner Class | Y | N |
-| final | Y | Y | Y |
-| abstract | Y | Y | N |
+| ```static``` | Inner Class | Y | N |
+| ```final``` | Y | Y | Y |
+| ```abstract``` | Y | Y | N |
 
 * static
     * ```static``` Field
@@ -153,6 +153,7 @@ Modifiers could modify classes and members (fields & methods) in classes
 ## Interface
 Define an interface: all methods are ```public abstract```.  
 Implement an interface: multi-inherite; have nothing to do with class inheritence.
+
 * Constant in Interface
     * ```(public static final) type NAME = value```
 * Enumeration
