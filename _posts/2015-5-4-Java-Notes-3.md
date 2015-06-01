@@ -113,11 +113,11 @@ Modifiers could modify classes and members (fields & methods) in classes
       
 * Modify Classes
 
-Accessibility:
+    * Accessibility:
 
-|  | Within Packet | Out of Packet |
-| :---: | :---: | :---: |
-| Default | Y | N |
-| public | Y | Y |
+    |  | Within Packet | Out of Packet |
+    | :---: | :---: | :---: |
+    | Default | Y | N |
+    | public | Y | Y |
 
 ## Interface
