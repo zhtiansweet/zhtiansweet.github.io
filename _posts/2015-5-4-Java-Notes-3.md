@@ -119,6 +119,7 @@ Modifiers could modify classes and members (fields & methods) in classes
     | :---: | :---: | :---: |
     | Default | Y | N |
     | public | Y | Y |
+
 ### Other Modifiers
 
 |  | Modify Classes | Modify Members | Modify Local Variables |
@@ -150,3 +151,74 @@ Modifiers could modify classes and members (fields & methods) in classes
        * ```abstract``` methods MUST be implemented (overrided) in the subclass, otherwise the subclass is still abstract.
 
 ## Interface
+Define an interface: all methods are ```public abstract```.  
+Implement an interface: multi-inherite; have nothing to do with class inheritence.
+* Constant in Interface
+    * ```(public static final) type NAME = value```
+* Enumeration
+
+    ```java
+    enum Light{Red, Yellow, Green}
+    Light light = Light.Red;
+    switch(light){case Red:......Break;}
+    ```
+* ```static``` Method (above Java8): not only declared, also implemented; no need to be overrided in subclasses.
+
+## Definition Summary
+* Class
+
+```java
+[public][abstract|final] class ClassName [extends SuperclassName][implements InterfaceNameList]{
+      [public|protected|private][static][final][transient][colatile] type variableName;      //Fields
+      [public|protected|private][static][final|abstract][native][synchronized] returnType methodName ([paramList])      //Methods
+      [throws exceptionList]{
+            statements
+      }
+}
+```
+
+* Interface
+
+```java
+[public] interface InterfaceName [extends SuperInterfaceList]{
+      type constantName = value;    //Constants
+      returnType methodName([paramList]);    //Methods
+}
+```
+
+* Method
+    * Constructor
+    
+    ```java
+    className([paramList]){
+    ......
+    }
+    ```
+    
+    * main()
+    
+    ```java
+    public static void main (String arg[]){
+    ......
+    }
+    ```
+    
+    * finalize()
+    
+    ```java
+    protected void finalize() throws throwable{
+    ......
+    }
+    ```
+
+* .java File
+
+```java
+package packageName;    //0 or 1
+import packageName.[className|*];      //0 or many
+public classDefinition     //0 or 1, className = fileName
+interfaceDefinition and classDefinition      //0 or many
+```
+
+## OO Design: Course Enrollment System
+In this project, I used all elements metioned above, including class, interface, various modifiers, inheritence, and etc. View the whole project [here](https://github.com/zhtiansweet/CourseEnrollment).
