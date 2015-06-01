@@ -16,21 +16,21 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     * "this"
         * Tell the difference from fields and local variables.
     
-        ```java
-       Person (int age, string name){
-           this.age = age;
-           this.name = name;
-       }
-       ```
+           ```java
+          Person (int age, string name){
+              this.age = age;
+              this.name = name;
+          }
+          ```
     
        * In a constructor, call another constructor. **MUST put at first!**
     
-       ```java
-       Person(){
-            this(0, "");
-            ...
-        }
-       ```
+          ```java
+          Person(){
+               this(0, "");
+               ...
+           }
+          ```
        
 * Inheritance
     * Subclass & Superclass
@@ -39,11 +39,11 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
     * "extends"
        * All classes inherit from java.lang.**Object**
        
-       ```java
-       class Student extends Person {     //A Student "is a" Person
-            ...
-      }
-      ```
+          ```java
+          class Student extends Person {     //A Student "is a" Person
+               ...
+         }
+         ```
       
     * Field
        * Inherite & Re-define (Hide) & Add
@@ -59,21 +59,21 @@ Instructor: [Dashi Tang](https://www.coursera.org/instructor/~3838), [Peking Uni
        * Access fields and methods in the superclass
        * Override and use the superclass
        
-       ``` java
-       void sayHello(){
-            super.sayHello();
-            ...
-       }
-       ```
+          ``` java
+          void sayHello(){
+               super.sayHello();
+               ...
+          }
+          ```
        
        * Call the supre class's constructor
        
-       ```java
-       Student(String name, int age, String school){
-            super(name, age);    //MUST put at first!
-            this.school = school;
-       }
-       ```
+          ```java
+          Student(String name, int age, String school){
+               super(name, age);    //MUST put at first!
+               this.school = school;
+          }
+          ```
     * Casting
 
 ## Package
@@ -167,58 +167,58 @@ Implement an interface: multi-inherite; have nothing to do with class inheritenc
 ## Definition Summary
 * Class
 
-```java
-[public][abstract|final] class ClassName [extends SuperclassName][implements InterfaceNameList]{
-      [public|protected|private][static][final][transient][colatile] type variableName;      //Fields
-      [public|protected|private][static][final|abstract][native][synchronized] returnType methodName ([paramList])      //Methods
-      [throws exceptionList]{
-            statements
-      }
-}
-```
+   ```java
+   [public][abstract|final] class ClassName [extends SuperclassName][implements InterfaceNameList]{
+         [public|protected|private][static][final][transient][colatile] type variableName;      //Fields
+         [public|protected|private][static][final|abstract][native][synchronized] returnType methodName ([paramList])      //Methods
+         [throws exceptionList]{
+               statements
+         }
+   }
+   ```
 
 * Interface
 
-```java
-[public] interface InterfaceName [extends SuperInterfaceList]{
-      type constantName = value;    //Constants
-      returnType methodName([paramList]);    //Methods
-}
-```
+   ```java
+   [public] interface InterfaceName [extends SuperInterfaceList]{
+         type constantName = value;    //Constants
+         returnType methodName([paramList]);    //Methods
+   }
+   ```
 
 * Method
     * Constructor
     
-    ```java
-    className([paramList]){
-    ......
-    }
-    ```
+       ```java
+       className([paramList]){
+            ......
+       }
+       ```
     
     * main()
     
-    ```java
-    public static void main (String arg[]){
-    ......
-    }
-    ```
+       ```java
+       public static void main (String arg[]){
+            ......
+       }
+       ```
     
     * finalize()
     
-    ```java
-    protected void finalize() throws throwable{
-    ......
-    }
-    ```
+       ```java
+       protected void finalize() throws throwable{
+            ......
+       }
+       ```
 
 * .java File
 
-```java
-package packageName;    //0 or 1
-import packageName.[className|*];      //0 or many
-public classDefinition     //0 or 1, className = fileName
-interfaceDefinition and classDefinition      //0 or many
-```
+   ```java
+   package packageName;    //0 or 1
+   import packageName.[className|*];      //0 or many
+   public classDefinition     //0 or 1, className = fileName
+   interfaceDefinition and classDefinition      //0 or many
+   ```
 
 ## OO Design: Course Enrollment System
 In this project, I used all elements metioned above, including class, interface, various modifiers, inheritence, and etc. View the whole project [here](https://github.com/zhtiansweet/CourseEnrollment).
